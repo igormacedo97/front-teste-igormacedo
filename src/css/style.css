@@ -1,0 +1,399 @@
+body {
+  color: #7d8190;
+  background-color: #ffffff;
+  font-family: 'Futura Lt Bt';
+}
+
+img {
+  max-width: 100%;
+}
+
+/* .container {
+  padding-left: 0px;
+  padding-right: 0px;
+} */
+
+/* ----- NAVBAR -----*/
+
+header {
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border-bottom: solid 1px #e1e1e1;
+  border-top: solid 1px #e1e1e1;
+}
+
+header .nav-item .nav-link {
+  color: #7d8190;
+}
+
+header ul li {
+  padding-left: 30px;
+  padding-right: 5px;
+}
+
+/*Icone menu responsivo*/
+.navbar-toggler-icon {
+  background-image: url(../icons/toggler-icon.svg);
+}
+
+/* Small phones 0 até 480px */
+@media only screen and (max-width: 480.98px) {
+  header {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Phones - Small tabletes 481 até 767px */
+@media only screen and (min-width: 481px) and (max-width: 767.98px) {
+  header {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small tablete - big tablet 768px até 1023 */
+@media only screen and (min-width: 768px) and (max-width: 1023.98px) {
+  header {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  header ul li {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+}
+
+/*BANNER*/
+.banner h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.banner h1 {
+  font-size: 4rem;
+}
+
+.banner .carousel-caption {
+  padding-bottom: 150px;
+}
+
+/* Small phones 0 até 480px */
+@media only screen and (max-width: 480.98px) {
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+
+  .banner h2,
+  h3 {
+    font-size: 1rem;
+  }
+
+  .banner .carousel-caption {
+    padding-bottom: 30px;
+  }
+}
+
+/* Phones - Small tabletes 481 até 767px */
+@media only screen and (min-width: 481px) and (max-width: 767.98px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner h2,
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .banner .carousel-caption {
+    padding-bottom: 55px;
+  }
+}
+
+/* Small tablete - big tablet 768px até 1023 */
+@media only screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .banner h1 {
+    font-size: 3rem;
+  }
+
+  .banner h2,
+  h3 {
+    font-size: 2rem;
+  }
+
+  .banner .carousel-caption {
+    padding-bottom: 80px;
+  }
+}
+
+/* Big tablet 1200px */
+@media only screen and (min-width: 1024px) and (max-width: 1199.98px) {
+  .banner .carousel-caption {
+    padding-bottom: 130px;
+  }
+}
+
+/* ----- TEXTO BAIXO BANNER ----- */
+.texto {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.texto p {
+  color: #919191;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 0 auto;
+}
+
+/* Small phones 0 até 480px */
+@media only screen and (max-width: 480.98px) {
+  .texto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .texto p {
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Phones - Small tabletes 481 até 767px */
+@media only screen and (min-width: 481px) and (max-width: 767.98px) {
+  .texto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .texto p {
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Small tablete - big tablet 768px até 1023 */
+@media only screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .texto {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .texto p {
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* ----- NOTICIAS ----- */
+.noticias {
+  padding-bottom: 100px;
+}
+
+.noticias a {
+  text-decoration: none;
+  color: #555555;
+}
+
+.noticias h4 {
+  text-transform: uppercase;
+  color: #bbd934;
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+
+.noticias .card {
+  border: none;
+}
+
+.noticias .card-body {
+  padding: 5px 0px 5px 0px;
+}
+
+.noticias h5 {
+  color: #bbd934;
+}
+
+/* Small phones 0 até 480px */
+@media only screen and (max-width: 480.98px) {
+  .noticias {
+    padding-bottom: 30px;
+  }
+
+  .noticias h4 {
+    font-size: 1.6rem;
+  }
+
+  .noticias h5 {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    padding-bottom: 50px;
+  }
+}
+
+/* Phones - Small tabletes 481 até 767px */
+@media only screen and (min-width: 481px) and (max-width: 767.98px) {
+  .noticias {
+    padding-bottom: 30px;
+  }
+
+  .noticias h4 {
+    font-size: 1.6rem;
+  }
+
+  .noticias h5 {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    padding-bottom: 40px;
+  }
+}
+
+/* Small tablete - big tablet 768px até 1023 */
+@media only screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .noticias {
+    padding-bottom: 30px;
+  }
+
+  .noticias h4 {
+    font-size: 1.6rem;
+  }
+
+  .noticias h5 {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    padding-bottom: 40px;
+  }
+}
+
+/* ----- FOOTER ----- */
+
+.rodape {
+  border-top: solid 2px #e1e1e1;
+  color: #919191;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.rodape .endereco {
+  color: #576267;
+}
+
+.rodape form label {
+  display: none;
+}
+
+.rodape input {
+  border: 1.5px solid #e1e1e1;
+  background: none;
+  align-self: flex-start;
+  padding-right: 150px;
+  padding-left: 5px;
+}
+
+.rodape button {
+  text-decoration: underline;
+  background: none;
+  border: none;
+  float: left;
+  font-size: 1.3em;
+  color: #bbd934;
+  cursor: pointer;
+  align-self: flex-start;
+  padding: 13px 0px 0px 100px;
+}
+
+.endereco ul li {
+  text-align: right;
+  display: block;
+}
+
+.endereco ul li p {
+  margin-bottom: 3px;
+}
+
+.endereco .rodape-logo {
+  margin-top: 30px;
+}
+
+/* Small phones 0 até 480px */
+@media only screen and (max-width: 480.98px) {
+  .rodape input {
+    padding-right: 188px;
+  }
+
+  .rodape button {
+    padding: 5px 0px;
+    float: right;
+  }
+
+  .endereco {
+    padding-top: 20px;
+  }
+
+  .endereco ul {
+    padding-left: 0px;
+  }
+
+  .endereco ul li {
+    text-align: center;
+    display: block;
+  }
+}
+
+/* Phones - Small tabletes 481 até 767px */
+@media only screen and (min-width: 481px) and (max-width: 767.98px) {
+  .rodape input {
+    padding-right: 368px;
+  }
+
+  .rodape button {
+    padding: 5px 0px;
+    float: right;
+  }
+
+  .endereco {
+    padding-top: 20px;
+  }
+
+  .endereco ul {
+    padding-left: 0px;
+  }
+
+  .endereco ul li {
+    text-align: center;
+    display: block;
+  }
+}
+
+/* Small tablete - big tablet 768px até 1023 */
+@media only screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .rodape input {
+    padding-right: 100px;
+  }
+
+  .rodape button {
+    padding: 5px 0px;
+    float: left;
+  }
+}
+
+/* Big tablet 1200px */
+@media only screen and (min-width: 1024px) and (max-width: 1199.98px) {
+  .rodape button {
+    padding: 5px 0px;
+    float: left;
+  }
+}
